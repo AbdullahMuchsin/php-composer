@@ -1,0 +1,11 @@
+{
+    "name": "abdullahmuchsin/belajar-php-composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "AbdullahMuchsin",
+            "email": "abdullahmuchsin96@gmail.com"
+        }
+    ],
+    "require": {}
+}
