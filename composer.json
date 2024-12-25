@@ -1,11 +1,16 @@
 {
-    "name": "abdullahmuchsin/belajar-php-composer",
-    "type": "project",
-    "authors": [
-        {
-            "name": "AbdullahMuchsin",
-            "email": "abdullahmuchsin96@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "abdullahmuchsin/belajar-php-composer",
+  "type": "project",
+  "authors": [
+    {
+      "name": "AbdullahMuchsin",
+      "email": "abdullahmuchsin96@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AbdullahMuchsin\\": "src/"
+    }
+  },
+  "require": {}
 }
