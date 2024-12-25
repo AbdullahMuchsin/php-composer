@@ -12,5 +12,7 @@
       "AbdullahMuchsin\\": "src/"
     }
   },
-  "require": {}
+  "require": {
+    "monolog/monolog": "3.8.*"
+  }
 }
