@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "055e40cd7c9ffcefa26be15499ba6ff5",
+    "content-hash": "2437585e0e7fdfd6ef703ab5392ed412",
     "packages": [
+        {
+            "name": "abdullahmuchsin/belajar-php-composer-hello",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AbdullahMuchsin/php-composer-hello.git",
+                "reference": "916b16823db4c135444d95d18f3d2ad6a94af117"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AbdullahMuchsin/php-composer-hello/zipball/916b16823db4c135444d95d18f3d2ad6a94af117",
+                "reference": "916b16823db4c135444d95d18f3d2ad6a94af117",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AbdullahMuchsin\\Belajar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "AbdullahMuchsin",
+                    "email": "abdullahmuchsin96@gmail.com"
+                }
+            ],
+            "description": "Library Composer Hello",
+            "support": {
+                "issues": "https://github.com/AbdullahMuchsin/php-composer-hello/issues",
+                "source": "https://github.com/AbdullahMuchsin/php-composer-hello/tree/2.0.0"
+            },
+            "time": "2024-12-26T05:31:37+00:00"
+        },
         {
             "name": "monolog/monolog",
             "version": "3.8.1",
@@ -166,7 +203,9 @@
     "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
+    "platform": {
+        "php": ">=7.0"
+    },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
